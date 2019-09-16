@@ -33,7 +33,7 @@ fill(255);
   //   the width is 1
   //   the height is negative the value of the int at that element in the array
 for(int i = 0; i < intArray.length; i++){
-  rect(intArray[i], height, 1, -(intArray[i]));
+  rect(i, height, 1, -(intArray[i]));
 }
 
   //9. call the stepSort method
